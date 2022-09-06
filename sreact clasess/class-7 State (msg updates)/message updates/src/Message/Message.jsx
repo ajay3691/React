@@ -1,8 +1,8 @@
 import React from 'react'
 class Message extends React.Component {
-   // constructor(props) {
-   //    super(props);
-   //  }
+    constructor(props) {
+       super(props);
+     }
     message = "Hello"
     changeMessageHandler = () => {
     //console.log(this.message)

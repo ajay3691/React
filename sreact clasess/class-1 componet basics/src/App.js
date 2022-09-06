@@ -1,12 +1,18 @@
-import message from './message'
-function App (){
-    return <div>
-        <h1>GM</h1>
-        <h1>GA</h1>
-        <h1>GN</h1>
-        <hr/>
-        <message/>
-        <message/>
-    </div>
+import React from 'react'
+//import Message1 from './Message1' 
+//import Message from './Message' 
+import App1 from './Message2'
+class App extends React.Component {
+    render() {
+        return <div>
+            <h1>App Component</h1>
+            <hr />
+            {/*<Message/>*/}
+            {/*<Message1/>*/}
+            <Message2/>
+
+            
+        </div>
+    }
 }
 export default App
