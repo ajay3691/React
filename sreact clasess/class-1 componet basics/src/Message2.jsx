@@ -16,3 +16,4 @@ const Message2 = () => {
 }
 
 export default Message2
+// fatt arrro function component

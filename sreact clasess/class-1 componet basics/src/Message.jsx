@@ -19,3 +19,4 @@ export class Message extends Component {
 }
 
 export default Message
+// class comonent

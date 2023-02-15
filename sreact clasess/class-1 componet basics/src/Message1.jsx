@@ -20,3 +20,4 @@ function Message1() {
 
 export default Message1
 
+// function component
